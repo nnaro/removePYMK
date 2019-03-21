@@ -1,0 +1,15 @@
+{
+  "name": "removePYMK",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "Remove \"People You May Know\" section",
+  "icons": {
+    "48": "default.png"
+  },
+  "content_scripts": [{
+    "matches": ["https://www.facebook.com/*"],
+    "run_at": "document_start",
+    "js": ["content.js"],
+    "css": ["style.css"]
+  }]
+}
