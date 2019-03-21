@@ -7,7 +7,6 @@ function removePYMK(){
                     node = node.parentNode;
                 }
             }
-            console.log(node);
             node.remove();
         });
     }
