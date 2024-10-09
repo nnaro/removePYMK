@@ -1,3 +1,5 @@
+# this is no longer maintained and does not work.
+
 # removePYMK
 Chrome extension to remove Facebook's "People You May Know" section
 
